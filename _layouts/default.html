@@ -6,16 +6,24 @@
     <meta charset="utf-8">
 		<script src="assets/js/wasm_exec.js"></script>
 		<script>
-      async function loadwasm() {
-			  const go = new Go();
-        const wasmfile = "assets/wasm/main.wasm";
-        const response = await fetch(wasmfile);
-        const buffer = await response.arrayBuffer();
-			  WebAssembly.instantiate(buffer, go.importObject).then((result) => {
-				  go.run(result.instance);
-			  });
+      const go = new Go();
+      const wasmfile = "assets/wasm/main.wasm";
+      let mod, inst;
+      async function loadwasm(resp, importObject) {
+				const source = await (await resp).arrayBuffer();
+				return await WebAssembly.instantiate(source, importObject);
       }
-      loadwasm()
+      loadwasm(fetch(wasmfile), go.importObject).then((result) => {
+        mod = result.module;
+        inst = result.instance;
+      }).catch((err) => {
+        console.error(err);
+      });
+      async function run() {
+        console.clear();
+        await go.run(inst);
+        inst = await WebAssembly.instantiate(mod, go.importObject); // reset instance
+      }
 		</script>
 
 {% seo %}
