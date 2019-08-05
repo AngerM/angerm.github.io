@@ -4,12 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-		<script src="wasm_exec.js"></script>
+		<script src="assets/js/wasm_exec.js"></script>
 		<script>
-			const go = new Go();
-			WebAssembly.instantiateStreaming(fetch("main.wasm"), go.importObject).then((result) => {
-				go.run(result.instance);
-			});
+      async function loadwasm() {
+			  const go = new Go();
+        const wasmfile = "assets/wasm/main.wasm";
+        const response = await fetch(wasmfile);
+        const buffer = await response.arrayBuffer();
+			  WebAssembly.instantiate(buffer, go.importObject).then((result) => {
+				  go.run(result.instance);
+			  });
+      }
+      loadwasm()
 		</script>
 
 {% seo %}
