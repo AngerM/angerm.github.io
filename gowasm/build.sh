@@ -1,1 +1,1 @@
-GOOS=js GOARCH=wasm go build -o ../assets/wasm/main.wasm
+tinygo build -o ../assets/wasm/main.wasm -target wasm -panic trap main.go
