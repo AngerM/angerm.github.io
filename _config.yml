@@ -1,2 +1,19 @@
 remote_theme: "mmistakes/minimal-mistakes@4.16.5"
+minimal_mistakes_skin: "dark"
+locale: "en-US"
 title: MattAnger.dev
+url: "https://www.mattanger.dev"
+author:
+  name             : "Matt Anger"
+
+footer:
+  links:
+    #- label: "Twitter"
+      #icon: "fab fa-fw fa-twitter-square"
+      # url:
+      #- label: "Facebook"
+      #icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/AngerM

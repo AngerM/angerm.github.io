@@ -1,5 +1,7 @@
 ---
 title: "Matt Anger's Homepage"
+layout: home
+author_profile: true
 ---
 
 # Welcome

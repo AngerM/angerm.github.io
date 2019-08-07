@@ -1,68 +1,42 @@
+---
+---
+
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.5 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-		<script src="assets/js/wasm_exec.js"></script>
-		<script>
-      const go = new Go();
-      const wasmfile = "assets/wasm/main.wasm";
-      let mod, inst;
-      async function loadwasm(resp, importObject) {
-				const source = await (await resp).arrayBuffer();
-				return await WebAssembly.instantiate(source, importObject);
-      }
-      loadwasm(fetch(wasmfile), go.importObject).then((result) => {
-        mod = result.module;
-        inst = result.instance;
-      }).catch((err) => {
-        console.error(err);
-      });
-      async function run() {
-        console.clear();
-        await go.run(inst);
-        inst = await WebAssembly.instantiate(mod, go.importObject); // reset instance
-      }
-		</script>
-
-{% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    {% include head.html %}
+    {% include head/custom.html %}
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">{{ site.title }}</h1>
-        <p class="header">{{ site.description }}</p>
 
-        <ul>
-        </ul>
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html %}
+    {% include_cached browser-upgrade.html %}
+    {% include_cached masthead.html %}
 
-      </header>
+    <div class="initial-content">
+      {{ content }}
+    </div>
 
-      <section>
-        {{ content }}
-      </section>
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
+      </div>
+    {% endif %}
 
+    <div id="footer" class="page__footer">
       <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
       </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
+
+    {% include scripts.html %}
+
   </body>
 </html>
-
