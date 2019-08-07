@@ -1,21 +1,29 @@
 remote_theme: "mmistakes/minimal-mistakes@4.16.5"
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "air"
 locale: "en-US"
 title: MattAnger.dev
 url: "https://www.mattanger.dev"
 
 author:
   name: "Matt Anger"
+  bio: "I'm a Software engineer and photographer."
+  location: "San Francisco"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/AngerM
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-link"
+      url: https://www.linkedin.com/in/mattanger/
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/AngerM
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-link"
+      url: https://www.linkedin.com/in/mattanger/
 
 # Plugins (previously gems:)
 plugins:

@@ -1,9 +1,8 @@
 ---
-title: "Matt Anger's Homepage"
+title: ""
 layout: home
 author_profile: true
 ---
-
 # Welcome
 
 Welcome to Matt Anger's home page.
