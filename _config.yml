@@ -1,2 +1,2 @@
-theme: jekyll-theme-dinky
+remote_theme: "mmistakes/minimal-mistakes@4.16.5"
 title: MattAnger.dev
