@@ -10,19 +10,19 @@ author:
   location: "San Francisco"
   links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-github"
       url: https://github.com/AngerM
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-linkedin"
       url: https://www.linkedin.com/in/mattanger/
 
 footer:
   links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-github"
       url: https://github.com/AngerM
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-linkedin"
       url: https://www.linkedin.com/in/mattanger/
 
 # Plugins (previously gems:)
