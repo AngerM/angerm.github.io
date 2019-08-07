@@ -2,6 +2,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.16.5"
 minimal_mistakes_skin: "air"
 locale: "en-US"
 title: MattAnger.dev
+title_separator: "-"
 url: "https://www.mattanger.dev"
 
 author:
@@ -10,19 +11,19 @@ author:
   location: "San Francisco"
   links:
     - label: "GitHub"
-      icon: "fab fa-github"
+      icon: "fab fa-fw fa-github"
       url: https://github.com/AngerM
     - label: "LinkedIn"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: https://www.linkedin.com/in/mattanger/
 
 footer:
   links:
     - label: "GitHub"
-      icon: "fab fa-github"
+      icon: "fab fa-fw fa-github"
       url: https://github.com/AngerM
     - label: "LinkedIn"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: https://www.linkedin.com/in/mattanger/
 
 # Plugins (previously gems:)
