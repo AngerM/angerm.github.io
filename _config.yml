@@ -4,7 +4,6 @@ locale: "en-US"
 title: MattAnger.dev
 name: "Matt Anger"
 description: "Personal homepage for Matt Anger"
-repository: "AngerM/angerm.github.io"
 title_separator: "|"
 url: "https://www.mattanger.dev"
 
