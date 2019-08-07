@@ -2,7 +2,10 @@ remote_theme: "mmistakes/minimal-mistakes@4.16.5"
 minimal_mistakes_skin: "air"
 locale: "en-US"
 title: MattAnger.dev
-title_separator: "-"
+name: "Matt Anger"
+description: "Personal homepage for Matt Anger"
+repository: "AngerM/angerm.github.io"
+title_separator: "|"
 url: "https://www.mattanger.dev"
 
 author:
@@ -46,6 +49,13 @@ whitelist:
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+social:
+  type: Person
+  name: Matt Anger
+  links:
+    - "https://github.com/AngerM"
+    - "https://www.linkedin.com/in/mattanger/"
 
 # Conversion
 markdown: kramdown
