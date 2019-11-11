@@ -1,9 +1,10 @@
 ---
 title: ""
-layout: home
+layout: single
 author_profile: true
 ---
 # Welcome
 
 Welcome to Matt Anger's home page.
-Nothing here yet, but content will soon follow!
+I'll get some [posts](posts) up soon.
+Until then, feel free to visit my [github](https://github.com/AngerM) or [LinkedIn](https://www.linkedin.com/in/mattanger/)
