@@ -5,8 +5,8 @@ title_separator: "|"
 url: "https://www.mattanger.dev"
 timezone: America/Los_Angeles
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
 markdown: kramdown
 github_username: AngerM
 remote_theme: "mmistakes/minimal-mistakes@4.16.5"
@@ -15,6 +15,7 @@ locale: "en-US"
 
 include:
   - _pages
+  - _posts
 
 author:
   name: "Matt Anger"
@@ -68,7 +69,7 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
