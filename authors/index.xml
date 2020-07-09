@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Matt Anger&#39;s Site</title>
+    <link>https://mattanger.dev/authors/</link>
+    <description>Recent content in Authors on Matt Anger&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2020 Matt Anger</copyright>
+    <lastBuildDate>Wed, 08 Jul 2020 19:57:47 -0700</lastBuildDate>
+    
+	<atom:link href="https://mattanger.dev/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Matt Anger</title>
+      <link>https://mattanger.dev/authors/matt-anger/</link>
+      <pubDate>Wed, 08 Jul 2020 19:57:47 -0700</pubDate>
+      
+      <guid>https://mattanger.dev/authors/matt-anger/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
