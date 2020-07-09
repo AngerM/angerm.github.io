@@ -14,12 +14,26 @@
     
     <item>
       <title>My First Post</title>
-      <link>https://mattanger.dev/posts/my-first-post/</link>
+      <link>https://mattanger.dev/posts/2020-07-08-first/</link>
       <pubDate>Wed, 08 Jul 2020 19:57:47 -0700</pubDate>
       
-      <guid>https://mattanger.dev/posts/my-first-post/</guid>
+      <guid>https://mattanger.dev/posts/2020-07-08-first/</guid>
       <description>So this exists 😄
 I am testing a new static site generator, because I didn&amp;rsquo;t like the old one. Hopefully I like this one more!</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://mattanger.dev/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattanger.dev/about/</guid>
+      <description>Hello visitor! My name is Matt Anger and I am a software engineer!
+This is my personal site.
+You can reach me on:
+Github: https://github.com/angerm
+LinkedIn: https://www.linkedin.com/in/mattanger/
+Keybase: https://keybase.io/angermcs</description>
     </item>
     
   </channel>
