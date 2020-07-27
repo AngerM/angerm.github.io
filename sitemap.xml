@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mattanger.dev/authors/</loc>
+    <loc>https://mattanger.dev/about/</loc>
     <lastmod>2020-07-08T19:57:47-07:00</lastmod>
   </url>
   
@@ -19,11 +19,6 @@
   
   <url>
     <loc>https://mattanger.dev/categories/general/</loc>
-    <lastmod>2020-07-08T19:57:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattanger.dev/authors/matt-anger/</loc>
     <lastmod>2020-07-08T19:57:47-07:00</lastmod>
   </url>
   
@@ -45,10 +40,6 @@
   <url>
     <loc>https://mattanger.dev/tags/</loc>
     <lastmod>2020-07-08T19:57:47-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mattanger.dev/about/</loc>
   </url>
   
 </urlset>
