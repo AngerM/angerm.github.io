@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Matt Anger&#39;s Site</title>
-    <link>https://mattanger.dev/posts/</link>
-    <description>Recent content in Posts on Matt Anger&#39;s Site</description>
+    <title>startups on Matt Anger&#39;s Site</title>
+    <link>https://mattanger.dev/tags/startups/</link>
+    <description>Recent content in startups on Matt Anger&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2020 Matt Anger</copyright>
-    <lastBuildDate>Fri, 07 Aug 2020 09:57:47 -0700</lastBuildDate><atom:link href="https://mattanger.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Aug 2020 09:57:47 -0700</lastBuildDate><atom:link href="https://mattanger.dev/tags/startups/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Startup Systems Design - Part1</title>
       <link>https://mattanger.dev/posts/2020-08-07-systems/</link>
@@ -17,16 +17,6 @@
       <description>Today we are going to talk about how to design your system. A lot of posts and articles have been written about this, and I wanted to throw my opinion out there as well.
 So how do you build a scalable system for your startup?
 A lot of startups decide to go with one of the standard monolith/all-in-one frameworks for their projects, for example Ruby-on-Rails or Django. The allure of these systems is quite understandable.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://mattanger.dev/posts/2020-07-08-first/</link>
-      <pubDate>Wed, 08 Jul 2020 19:57:47 -0700</pubDate>
-      
-      <guid>https://mattanger.dev/posts/2020-07-08-first/</guid>
-      <description>So this exists
-I am testing a new static site generator, because I didn&amp;rsquo;t like the old one. Hopefully I like this one more!</description>
     </item>
     
   </channel>
