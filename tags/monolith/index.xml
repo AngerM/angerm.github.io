@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Matt Anger&#39;s Site</title>
-    <link>https://mattanger.dev/posts/</link>
-    <description>Matt Anger&#39;s Site (Posts)</description>
+    <title>monolith on Matt Anger&#39;s Site</title>
+    <link>https://mattanger.dev/tags/monolith/</link>
+    <description>Matt Anger&#39;s Site (monolith)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Aug 2020 09:57:47 -0700</lastBuildDate>
     
-    <atom:link href="https://mattanger.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mattanger.dev/tags/monolith/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -27,17 +27,6 @@ However I want to caution against these systems, for a few reaons:&lt;/p&gt;
 &lt;li&gt;They allow, or even encourage, design patterns that will make it harder to scale and separate things out later on in your systems life cycle. I am not advocating a microservices architecture, but within your monolith you&amp;rsquo;re still going to want to have a &amp;lsquo;services&amp;rsquo;-like orgnanization. Organize your code into functional units and try to maintain &amp;lsquo;public&amp;rsquo; apis between those subsystems. This will make it FAR easier to reason about how code works, as well as FAR, FAR easier to refactor should you have to change some of the fundamentals (ex: a new datastore, or maybe some part of the system you DO have to extract for performance reasons).&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;If you and your team love python, you can easily start with Flask or FastAPI + SQLAlchemy and have an extremely easy to use + maintain system, that should be easier to upgrade and maintain long term. If you love Ruby, I am not as plugged into the Ruby world anymore, but I assume similar such frameworks exist that can help you avoid RoR. Other languages have their own versions, Go has a wide variety of http frameworks, Kotlin has a bunch of kotlin specific, as well as being able to use a lot of Java frameworks with relative ease. The possibilities are all there, and will likely serve you better in the long run, over the massive bundle of an all-in-one framework.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://mattanger.dev/posts/2020-07-08-first/</link>
-      <pubDate>Wed, 08 Jul 2020 19:57:47 -0700</pubDate>
-      
-      <guid>https://mattanger.dev/posts/2020-07-08-first/</guid>
-      <description>&lt;p&gt;So this exists&lt;/p&gt;
-&lt;p&gt;I am testing a new static site generator, because I didn&amp;rsquo;t like the old one. Hopefully I like this one more!&lt;/p&gt;
 </description>
     </item>
     
