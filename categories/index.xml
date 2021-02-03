@@ -3,28 +3,13 @@
   <channel>
     <title>Categories on Matt Anger&#39;s Site</title>
     <link>https://mattanger.dev/categories/</link>
-    <description>Recent content in Categories on Matt Anger&#39;s Site</description>
+    <description>Matt Anger&#39;s Site (Categories)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>2020 Matt Anger</copyright>
-    <lastBuildDate>Fri, 07 Aug 2020 09:57:47 -0700</lastBuildDate><atom:link href="https://mattanger.dev/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>engineering</title>
-      <link>https://mattanger.dev/categories/engineering/</link>
-      <pubDate>Fri, 07 Aug 2020 09:57:47 -0700</pubDate>
-      
-      <guid>https://mattanger.dev/categories/engineering/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Fri, 07 Aug 2020 09:57:47 -0700</lastBuildDate>
     
-    <item>
-      <title>general</title>
-      <link>https://mattanger.dev/categories/general/</link>
-      <pubDate>Wed, 08 Jul 2020 19:57:47 -0700</pubDate>
-      
-      <guid>https://mattanger.dev/categories/general/</guid>
-      <description></description>
-    </item>
+    <atom:link href="https://mattanger.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    
     
   </channel>
 </rss>
