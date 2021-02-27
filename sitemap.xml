@@ -1,75 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://mattanger.dev/categories/</loc>
     <lastmod>2020-08-07T09:57:47-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattanger.dev/tags/design/</loc>
     <lastmod>2020-08-07T09:57:47-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattanger.dev/categories/engineering/</loc>
     <lastmod>2020-08-07T09:57:47-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattanger.dev/</loc>
     <lastmod>2020-08-07T09:57:47-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattanger.dev/tags/monolith/</loc>
     <lastmod>2020-08-07T09:57:47-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattanger.dev/posts/</loc>
     <lastmod>2020-08-07T09:57:47-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattanger.dev/posts/2020-08-07-systems/</loc>
     <lastmod>2020-08-07T09:57:47-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattanger.dev/tags/startups/</loc>
     <lastmod>2020-08-07T09:57:47-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattanger.dev/tags/system/</loc>
     <lastmod>2020-08-07T09:57:47-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattanger.dev/tags/</loc>
     <lastmod>2020-08-07T09:57:47-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattanger.dev/about/</loc>
     <lastmod>2020-07-08T19:57:47-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattanger.dev/tags/general/</loc>
     <lastmod>2020-07-08T19:57:47-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattanger.dev/categories/general/</loc>
     <lastmod>2020-07-08T19:57:47-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mattanger.dev/posts/2020-07-08-first/</loc>
     <lastmod>2020-07-08T19:57:47-07:00</lastmod>
   </url>
-  
 </urlset>
