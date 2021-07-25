@@ -3,33 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mattanger.dev/categories/</loc>
-    <lastmod>2020-08-07T09:57:47-07:00</lastmod>
+    <lastmod>2021-07-23T09:11:32-07:00</lastmod>
   </url><url>
     <loc>https://mattanger.dev/tags/design/</loc>
-    <lastmod>2020-08-07T09:57:47-07:00</lastmod>
+    <lastmod>2021-07-23T09:11:32-07:00</lastmod>
   </url><url>
     <loc>https://mattanger.dev/categories/engineering/</loc>
-    <lastmod>2020-08-07T09:57:47-07:00</lastmod>
+    <lastmod>2021-07-23T09:11:32-07:00</lastmod>
   </url><url>
     <loc>https://mattanger.dev/</loc>
-    <lastmod>2020-08-07T09:57:47-07:00</lastmod>
+    <lastmod>2021-07-23T09:11:32-07:00</lastmod>
   </url><url>
     <loc>https://mattanger.dev/tags/monolith/</loc>
-    <lastmod>2020-08-07T09:57:47-07:00</lastmod>
+    <lastmod>2021-07-23T09:11:32-07:00</lastmod>
   </url><url>
     <loc>https://mattanger.dev/posts/</loc>
-    <lastmod>2020-08-07T09:57:47-07:00</lastmod>
-  </url><url>
-    <loc>https://mattanger.dev/posts/2020-08-07-systems/</loc>
-    <lastmod>2020-08-07T09:57:47-07:00</lastmod>
+    <lastmod>2021-07-23T09:11:32-07:00</lastmod>
   </url><url>
     <loc>https://mattanger.dev/tags/startups/</loc>
-    <lastmod>2020-08-07T09:57:47-07:00</lastmod>
+    <lastmod>2021-07-23T09:11:32-07:00</lastmod>
   </url><url>
     <loc>https://mattanger.dev/tags/system/</loc>
-    <lastmod>2020-08-07T09:57:47-07:00</lastmod>
+    <lastmod>2021-07-23T09:11:32-07:00</lastmod>
   </url><url>
     <loc>https://mattanger.dev/tags/</loc>
+    <lastmod>2021-07-23T09:11:32-07:00</lastmod>
+  </url><url>
+    <loc>https://mattanger.dev/posts/2021-07-24-talking-kotlin/</loc>
+    <lastmod>2021-07-23T09:11:32-07:00</lastmod>
+  </url><url>
+    <loc>https://mattanger.dev/posts/2021-05-04-dd/</loc>
+    <lastmod>2021-05-04T09:57:47-07:00</lastmod>
+  </url><url>
+    <loc>https://mattanger.dev/posts/2020-08-07-systems/</loc>
     <lastmod>2020-08-07T09:57:47-07:00</lastmod>
   </url><url>
     <loc>https://mattanger.dev/about/</loc>
