@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
 
-    
+
 
 <html lang="en-us" data-theme="dark">
 <head>
-    
-        
+
+
 <meta charset="utf-8">
 <meta name="HandheldFriendly" content="True">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,43 +44,43 @@ Enjoy your stay!">
 
 
 
-    
 
 
 
 
 
-    
-    
-        
-    
-    
 
-    
+
+
+
+
+
+
+
         <link rel="stylesheet" href="https://www.mattanger.dev/css/style.min.596e5300ed2b3cdb15609bd0fabe571f1c9bdfae018f99a574f500d5ee5b03cf.css" integrity="sha256-WW5TAO0rPNsVYJvQ&#43;r5XHxyb364Bj5mldPUA1e5bA88=">
-    
 
 
 
 
 
-    
-
-    
 
 
 
 
 
-    
-    
-        
-    
-    
 
-    
+
+
+
+
+
+
+
+
+
+
         <script src="https://www.mattanger.dev/js/script.min.74bf1a3fcf1af396efa4acf3e660e876b61a2153ab9cbe1893ac24ea6d4f94ee.js" type="text/javascript" charset="utf-8" integrity="sha256-dL8aP88a85bvpKzz5mDodrYaIVOrnL4Yk6wk6m1PlO4="></script>
-    
+
 
 
 
@@ -116,13 +116,13 @@ Enjoy your stay!"/>
 
 
 
-    
+
 </head>
 <body>
     <a class="skip-main" href="#main">Skip to main content</a>
     <div class="container">
-        <header class="common-header"> 
-            
+        <header class="common-header">
+
                 <div class="header-top">
     <h1 class="site-title">
     <a href="/">Matt Anger&#39;s Site</a>
@@ -137,29 +137,29 @@ Enjoy your stay!"/>
 </div>
 
     <nav>
-        
-        
+
+
         <a class="" href="https://www.mattanger.dev/about" title="">About</a>
-        
+
         <a class="" href="https://www.mattanger.dev/posts" title="">Posts</a>
-        
+
     </nav>
 
 
 
 
-            
+
         </header>
-        <main id="main" tabindex="-1"> 
-            
-    
+        <main id="main" tabindex="-1">
+
+
 
     <article class="post h-entry">
         <div class="post-header">
             <header>
                 <h1 class="p-name post-title">About Me</h1>
 
-                
+
             </header>
         </div>
         <div class="content e-content">
@@ -171,36 +171,30 @@ I am a software engineer with over 15 years of industry experience and have work
 <p>Github: <a href="https://github.com/angerm">https://github.com/angerm</a></p>
 <p>LinkedIn: <a href="https://www.linkedin.com/in/mattanger/">https://www.linkedin.com/in/mattanger/</a></p>
 <p>Keybase: <a href="https://keybase.io/angermcs">https://keybase.io/angermcs</a></p>
-<p>Mastadon: <!-- raw HTML omitted --><a href="https://hachyderm.io/@angermcs">https://hachyderm.io/@angermcs</a><!-- raw HTML omitted --></p>
+<p>Mastadon: <a rel="me" href="https://hachyderm.io/@angermcs">https://hachyderm.io/@angermcs</a></p>
 <p><img src="/matt_small.jpg" alt=""></p>
 
         </div>
-        
+
 
 
 <div class="post-info">
-    
+
         <div class="post-date dt-published">2020-07-08</div>
-    
+
 
     <a class="post-hidden-url u-url" href="https://www.mattanger.dev/about/">https://www.mattanger.dev/about/</a>
     <a href="https://www.mattanger.dev" class="p-name p-author post-hidden-author h-card" rel="me">Matt Anger</a>
 
 
     <div class="post-taxonomies">
-        
-            
+
+
     </div>
 </div>
 
     </article>
 
-    
-
-    
-
-    
-        
 
 
 
@@ -208,26 +202,32 @@ I am a software engineer with over 15 years of industry experience and have work
 
 
 
-    
+
+
+
+
+
+
+
 
         </main>
-        
+
             <footer class="common-footer">
-    
-    
+
+
 
     <div class="common-footer-bottom">
-        
+
         <div class="copyright">
             <p>© Matt Anger, 2022<br>
             Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.<br>
-            
-            </p>  
-        </div> 
 
-        
+            </p>
+        </div>
 
-    
+
+
+
 
 
 
@@ -261,20 +261,20 @@ document.addEventListener('DOMContentLoaded', function() {
         changeButtonText()
         switchButton.addEventListener('click', switchTheme, false)
     }
-  
+
     showContent()
 })
 
 function detectCurrentScheme() {
     if (localStorage.getItem(STORAGE_KEY)) {
         return localStorage.getItem(STORAGE_KEY)
-    } 
+    }
     if (defaultTheme) {
         return defaultTheme
-    } 
+    }
     if (!window.matchMedia) {
         return 'light'
-    } 
+    }
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         return 'dark'
     }
@@ -282,7 +282,7 @@ function detectCurrentScheme() {
 }
 
 function changeButtonText()
-{   
+{
     if (switchButton) {
         switchButton.textContent = currentTheme == 'dark' ?  "Light theme" : "Dark theme"
     }
@@ -305,20 +305,20 @@ function showContent() {
     document.body.style.visibility = 'visible';
     document.body.style.opacity = 1;
 }
-</script>   
+</script>
     </div>
 
     <p class="h-card vcard">
 
-    <a href=https://www.mattanger.dev class="p-name u-url url fn" rel="me">Matt Anger</a> 
+    <a href=https://www.mattanger.dev class="p-name u-url url fn" rel="me">Matt Anger</a>
 
-    
 
-    
-</p> 
+
+
+</p>
 </footer>
 
-        
+
     </div>
 </body>
 </html>
