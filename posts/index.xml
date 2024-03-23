@@ -5,8 +5,8 @@
     <link>https://www.mattanger.dev/posts/</link>
     <description>Matt Anger&#39;s Site (Posts)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jul 2021 09:11:32 -0700</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Wed, 18 May 2022 09:11:32 -0700</lastBuildDate>
     
     <atom:link href="https://www.mattanger.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,7 +18,7 @@
       
       <guid>https://www.mattanger.dev/posts/2021-07-24-talking-kotlin/</guid>
       <description>&lt;p&gt;I was on the Talking Kotlin Podcast talking about systems design and Kotlin as a backend language!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;amp;t=1s&#34;&gt;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;amp;t=1s&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;t=1s&#34;&gt;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;t=1s&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

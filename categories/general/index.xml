@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>general on Matt Anger&#39;s Site</title>
+    <title>General on Matt Anger&#39;s Site</title>
     <link>https://www.mattanger.dev/categories/general/</link>
-    <description>Matt Anger&#39;s Site (general)</description>
+    <description>Matt Anger&#39;s Site (General)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Wed, 08 Jul 2020 19:57:47 -0700</lastBuildDate>
     
     <atom:link href="https://www.mattanger.dev/categories/general/index.xml" rel="self" type="application/rss+xml" />

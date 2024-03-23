@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.mattanger.dev/</loc>
+    <lastmod>2022-05-18T09:11:32-07:00</lastmod>
+  </url><url>
+    <loc>https://www.mattanger.dev/posts/</loc>
+    <lastmod>2022-05-18T09:11:32-07:00</lastmod>
+  </url><url>
     <loc>https://www.mattanger.dev/categories/</loc>
     <lastmod>2021-07-23T09:11:32-07:00</lastmod>
   </url><url>
@@ -11,13 +17,7 @@
     <loc>https://www.mattanger.dev/categories/engineering/</loc>
     <lastmod>2021-07-23T09:11:32-07:00</lastmod>
   </url><url>
-    <loc>https://www.mattanger.dev/</loc>
-    <lastmod>2021-07-23T09:11:32-07:00</lastmod>
-  </url><url>
     <loc>https://www.mattanger.dev/tags/monolith/</loc>
-    <lastmod>2021-07-23T09:11:32-07:00</lastmod>
-  </url><url>
-    <loc>https://www.mattanger.dev/posts/</loc>
     <lastmod>2021-07-23T09:11:32-07:00</lastmod>
   </url><url>
     <loc>https://www.mattanger.dev/tags/startups/</loc>

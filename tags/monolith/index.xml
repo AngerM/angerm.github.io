@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>monolith on Matt Anger&#39;s Site</title>
+    <title>Monolith on Matt Anger&#39;s Site</title>
     <link>https://www.mattanger.dev/tags/monolith/</link>
-    <description>Matt Anger&#39;s Site (monolith)</description>
+    <description>Matt Anger&#39;s Site (Monolith)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Fri, 23 Jul 2021 09:11:32 -0700</lastBuildDate>
     
     <atom:link href="https://www.mattanger.dev/tags/monolith/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       
       <guid>https://www.mattanger.dev/posts/2021-07-24-talking-kotlin/</guid>
       <description>&lt;p&gt;I was on the Talking Kotlin Podcast talking about systems design and Kotlin as a backend language!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;amp;t=1s&#34;&gt;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;amp;t=1s&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;t=1s&#34;&gt;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;t=1s&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

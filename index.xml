@@ -5,8 +5,8 @@
     <link>https://www.mattanger.dev/</link>
     <description>Matt Anger&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jul 2021 09:11:32 -0700</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Wed, 18 May 2022 09:11:32 -0700</lastBuildDate>
     
     <atom:link href="https://www.mattanger.dev/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,7 +18,7 @@
       
       <guid>https://www.mattanger.dev/posts/2021-07-24-talking-kotlin/</guid>
       <description>&lt;p&gt;I was on the Talking Kotlin Podcast talking about systems design and Kotlin as a backend language!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;amp;t=1s&#34;&gt;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;amp;t=1s&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;t=1s&#34;&gt;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;t=1s&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -67,7 +67,7 @@ I am a software engineer with over 15 years of industry experience and have work
 &lt;p&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/in/mattanger/&#34;&gt;Matt Anger&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Keybase: &lt;a href=&#34;https://keybase.io/angermcs&#34;&gt;angermcs&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Mastadon: &lt;a rel=&#34;me&#34; href=&#34;https://hachyderm.io/@angermcs&#34;&gt;@angermcs&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.mattanger.dev/matt_small.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.mattanger.dev/matt_small.jpg&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
