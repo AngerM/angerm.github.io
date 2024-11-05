@@ -2,21 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Monolith on Matt Anger&#39;s Site</title>
-    <link>https://www.mattanger.dev/tags/monolith/</link>
+    <link>/tags/monolith/</link>
     <description>Matt Anger&#39;s Site (Monolith)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    
+
+    
     <lastBuildDate>Fri, 23 Jul 2021 09:11:32 -0700</lastBuildDate>
     
-    <atom:link href="https://www.mattanger.dev/tags/monolith/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/monolith/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Talking Kotlin Podcast</title>
-      <link>https://www.mattanger.dev/posts/2021-07-24-talking-kotlin/</link>
+      <link>/posts/2021-07-24-talking-kotlin/</link>
       <pubDate>Fri, 23 Jul 2021 09:11:32 -0700</pubDate>
       
-      <guid>https://www.mattanger.dev/posts/2021-07-24-talking-kotlin/</guid>
+      <guid>/posts/2021-07-24-talking-kotlin/</guid>
       <description>&lt;p&gt;I was on the Talking Kotlin Podcast talking about systems design and Kotlin as a backend language!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;t=1s&#34;&gt;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;t=1s&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -24,10 +27,10 @@
     
     <item>
       <title>Migrating from Python to Kotlin</title>
-      <link>https://www.mattanger.dev/posts/2021-05-04-dd/</link>
+      <link>/posts/2021-05-04-dd/</link>
       <pubDate>Tue, 04 May 2021 09:57:47 -0700</pubDate>
       
-      <guid>https://www.mattanger.dev/posts/2021-05-04-dd/</guid>
+      <guid>/posts/2021-05-04-dd/</guid>
       <description>&lt;p&gt;I wrote a nice blog post about work our engineering team at Doordash has been doing.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://doordash.engineering/2021/05/04/migrating-from-python-to-kotlin-for-our-backend-services/&#34;&gt;https://doordash.engineering/2021/05/04/migrating-from-python-to-kotlin-for-our-backend-services/&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -35,10 +38,10 @@
     
     <item>
       <title>Startup Systems Design - Part 1</title>
-      <link>https://www.mattanger.dev/posts/2020-08-07-systems/</link>
+      <link>/posts/2020-08-07-systems/</link>
       <pubDate>Fri, 07 Aug 2020 09:57:47 -0700</pubDate>
       
-      <guid>https://www.mattanger.dev/posts/2020-08-07-systems/</guid>
+      <guid>/posts/2020-08-07-systems/</guid>
       <description>&lt;p&gt;Today we are going to talk about how to design your system. A lot of posts and articles have been written about this, and I wanted to throw my opinion out there as well.&lt;/p&gt;
 &lt;p&gt;So how do you build a scalable system for your startup?&lt;/p&gt;
 &lt;p&gt;A lot of startups decide to go with one of the standard monolith/all-in-one frameworks for their projects, for example Ruby-on-Rails or Django.
