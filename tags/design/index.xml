@@ -1,58 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+
   <channel>
-    <title>Design on Matt Anger&#39;s Site</title>
-    <link>/tags/design/</link>
-    <description>Matt Anger&#39;s Site (Design)</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Matt Anger&#39;s Site</title>
+    <link>https://www.mattanger.dev/</link>
+    <description>Recent blog posts on Matt Anger&#39;s Site</description>
+    
+    <generator>Hugo (https://gohugo.io)</generator>
+    
     <language>en-us</language>
     
+    
+    
+    <lastBuildDate>Fri, 23 Jul 2021 09:11:32 +0800</lastBuildDate>
+    
+    <atom:link href="https://www.mattanger.dev/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
 
-    
-    <lastBuildDate>Fri, 23 Jul 2021 09:11:32 -0700</lastBuildDate>
-    
-    <atom:link href="/tags/design/index.xml" rel="self" type="application/rss+xml" />
-    
-    
     <item>
       <title>Talking Kotlin Podcast</title>
-      <link>/posts/2021-07-24-talking-kotlin/</link>
-      <pubDate>Fri, 23 Jul 2021 09:11:32 -0700</pubDate>
+      <link>https://www.mattanger.dev/posts/2021-07-24-talking-kotlin/</link>
+      <pubDate>Fri, 23 Jul 2021 09:11:32 +0800</pubDate>
       
-      <guid>/posts/2021-07-24-talking-kotlin/</guid>
-      <description>&lt;p&gt;I was on the Talking Kotlin Podcast talking about systems design and Kotlin as a backend language!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;amp;t=1s&#34;&gt;https://www.youtube.com/watch?v=XTeEIJ170KE&amp;amp;t=1s&lt;/a&gt;&lt;/p&gt;
-</description>
+
+      
+      
+      
+      
+
+      <description>
+      I was on the Talking Kotlin Podcast talking about systems design and Kotlin as a backend language!
+https://www.youtube.com/watch?v=XTeEIJ170KE&amp;amp;t=1s
+
+      </description>
+      <guid isPermaLink="true">https://www.mattanger.dev/posts/2021-07-24-talking-kotlin/</guid>
     </item>
     
+
     <item>
       <title>Migrating from Python to Kotlin</title>
-      <link>/posts/2021-05-04-dd/</link>
-      <pubDate>Tue, 04 May 2021 09:57:47 -0700</pubDate>
+      <link>https://www.mattanger.dev/posts/2021-05-04-dd/</link>
+      <pubDate>Tue, 04 May 2021 09:57:47 +0800</pubDate>
       
-      <guid>/posts/2021-05-04-dd/</guid>
-      <description>&lt;p&gt;I wrote a nice blog post about work our engineering team at Doordash has been doing.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://doordash.engineering/2021/05/04/migrating-from-python-to-kotlin-for-our-backend-services/&#34;&gt;https://doordash.engineering/2021/05/04/migrating-from-python-to-kotlin-for-our-backend-services/&lt;/a&gt;&lt;/p&gt;
-</description>
+
+      
+      
+      
+      
+
+      <description>
+      I wrote a nice blog post about work our engineering team at Doordash has been doing.
+https://doordash.engineering/2021/05/04/migrating-from-python-to-kotlin-for-our-backend-services/
+
+      </description>
+      <guid isPermaLink="true">https://www.mattanger.dev/posts/2021-05-04-dd/</guid>
     </item>
     
+
     <item>
       <title>Startup Systems Design - Part 1</title>
-      <link>/posts/2020-08-07-systems/</link>
-      <pubDate>Fri, 07 Aug 2020 09:57:47 -0700</pubDate>
+      <link>https://www.mattanger.dev/posts/2020-08-07-systems/</link>
+      <pubDate>Fri, 07 Aug 2020 09:57:47 +0800</pubDate>
       
-      <guid>/posts/2020-08-07-systems/</guid>
-      <description>&lt;p&gt;Today we are going to talk about how to design your system. A lot of posts and articles have been written about this, and I wanted to throw my opinion out there as well.&lt;/p&gt;
-&lt;p&gt;So how do you build a scalable system for your startup?&lt;/p&gt;
-&lt;p&gt;A lot of startups decide to go with one of the standard monolith/all-in-one frameworks for their projects, for example Ruby-on-Rails or Django.
-The allure of these systems is quite understandable. You get a complete package of routing, templating, database management, ORM, etc all in one set of components, and they generally work well enough.
-However I want to caution against these systems, for a few reaons:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Generally, they are hard to upgrade. Ruby upgrades can sometimes be hard enough, Ruby-on-Rails even more so. You can easily see teams of engineers spending weeks or longer on large code bases trying to handle all changes needed to do an upgrade even if they are trying to follow the releases closely. The same is true for Django. Although Python upgrades are generally more painless than Ruby upgradess, Django upgrades can take a lot of time. If you don&amp;rsquo;t use a monolith, its easier to update individual dependencies as the number of changes you are doing in one shot is far less. This also drastically helps rolling out these changes in a confident manner!&lt;/li&gt;
-&lt;li&gt;They allow, or even encourage, design patterns that will make it harder to scale and separate things out later on in your systems life cycle. I am not advocating a microservices architecture, but within your monolith you&amp;rsquo;re still going to want to have a &amp;lsquo;services&amp;rsquo;-like orgnanization. Organize your code into functional units and try to maintain &amp;lsquo;public&amp;rsquo; apis between those subsystems. This will make it FAR easier to reason about how code works, as well as FAR, FAR easier to refactor should you have to change some of the fundamentals (ex: a new datastore, or maybe some part of the system you DO have to extract for performance reasons).&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;If you and your team love python, you can easily start with Flask or FastAPI + SQLAlchemy and have an extremely easy to use + maintain system, that should be easier to upgrade and maintain long term. If you love Ruby, I am not as plugged into the Ruby world anymore, but I assume similar such frameworks exist that can help you avoid RoR. Other languages have their own versions, Go has a wide variety of http frameworks, Kotlin has a bunch of kotlin specific, as well as being able to use a lot of Java frameworks with relative ease. The possibilities are all there, and will likely serve you better in the long run, over the massive bundle of an all-in-one framework.&lt;/p&gt;
-</description>
+
+      
+      
+      
+      
+
+      <description>
+      Today we are going to talk about how to design your system. A lot of posts and articles have been written about this, and I wanted to throw my opinion out there as well.
+So how do you build a scalable system for your startup?
+A lot of startups decide to go with one of the standard monolith/all-in-one frameworks for their projects, for example Ruby-on-Rails or Django. The allure of these systems is quite understandable. You get a complete package of routing, templating, database management, ORM, etc all in one set of components, and they generally work well enough. However I want to caution against these systems, for a few reaons:
+
+      </description>
+      <guid isPermaLink="true">https://www.mattanger.dev/posts/2020-08-07-systems/</guid>
     </item>
     
   </channel>

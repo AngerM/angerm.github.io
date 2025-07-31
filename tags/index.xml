@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+
   <channel>
-    <title>Tags on Matt Anger&#39;s Site</title>
-    <link>/tags/</link>
-    <description>Matt Anger&#39;s Site (Tags)</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Matt Anger&#39;s Site</title>
+    <link>https://www.mattanger.dev/</link>
+    <description>Recent blog posts on Matt Anger&#39;s Site</description>
+    
+    <generator>Hugo (https://gohugo.io)</generator>
+    
     <language>en-us</language>
     
-
     
-    <lastBuildDate>Fri, 23 Jul 2021 09:11:32 -0700</lastBuildDate>
     
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Jul 2021 09:11:32 +0800</lastBuildDate>
     
+    <atom:link href="https://www.mattanger.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
