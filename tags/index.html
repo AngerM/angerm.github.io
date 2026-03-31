@@ -4,6 +4,8 @@
 
 
 
+
+
 <html lang="en-us" data-theme="">
 <head>
     
@@ -13,10 +15,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 <meta name="theme-name" content="Anubis2">
+<meta name="theme-version" content="1.5.0">
 
 <title>Tags - Matt Anger&rsquo;s Site</title>
 
 <meta name="description" content="">
+<meta name="author" content="">
+<meta name="copyright" content="">
+<meta name="generator" content="Hugo 0.159.1">
+<link rel="canonical" href="https://www.mattanger.dev/tags/">
 
 
 
@@ -62,7 +69,7 @@
     
 
     
-        <link rel="stylesheet" href="/css/style.min.ad0c5f08e11beb85512119de0d31d3f47192f92c923af67f5b124616b9113cea.css" integrity="sha256-rQxfCOEb64VRIRneDTHT9HGS&#43;SySOvZ/WxJGFrkRPOo=">
+        <link rel="stylesheet" href="/css/style.min.919e8bff9df3a36f5157ec2d1d3e464c29ed50200416bd4d65c4d69a6485f548.css" integrity="sha256-kZ6L/53zo29RV&#43;wtHT5GTCntUCAEFr1NZcTWmmSF9Ug=">
     
 
 
@@ -82,7 +89,7 @@
     
 
     
-        <link rel="stylesheet" href="/css/style.min.c4c04b3ef88e3d619ad4c7ee5e03048422bc55c4fefdc1f07657c1133670aa22.css" integrity="sha256-xMBLPviOPWGa1MfuXgMEhCK8VcT&#43;/cHwdlfBEzZwqiI=">
+        <link rel="stylesheet" href="/css/style.min.aa6e27ae0d565434ce1246364d776d71c6955cd53bd21352426f6c2ee1ab56b5.css" integrity="sha256-qm4nrg1WVDTOEkY2TXdtccaVXNU70hNSQm9sLuGrVrU=">
     
 
 
@@ -102,7 +109,7 @@
     
 
     
-        <link rel="stylesheet" href="/css/style.min.21c5d8fe0a79d623b0adc1ce4bd4f6dd2c05cd939c9aaaa966ba7186b1464f4d.css" integrity="sha256-IcXY/gp51iOwrcHOS9T23SwFzZOcmqqpZrpxhrFGT00=">
+        <link rel="stylesheet" href="/css/style.min.ece0b450d437fcdb41e3e2170184d978ad9de51a630ac90709b00587a086d6f2.css" integrity="sha256-7OC0UNQ3/NtB4&#43;IXAYTZeK2d5RpjCskHCbAFh6CG1vI=">
     
 
 
@@ -156,7 +163,7 @@
     
 
     
-        <script src="/js/script.min.08f04d96386c73c9bf4d160333f8f448c05a6e01c06770542ee0e013954ce930.js" type="text/javascript" charset="utf-8" integrity="sha256-CPBNljhsc8m/TRYDM/j0SMBabgHAZ3BULuDgE5VM6TA="></script>
+        <script src="/js/script.min.9752b2b06a7b85657fe0806a9d93413916c87001ca8a2885edc4328662fd7a85.js" type="text/javascript" charset="utf-8" integrity="sha256-l1KysGp7hWV/4IBqnZNBORbIcAHKiiiF7cQyhmL9eoU=" defer></script>
     
 
 
@@ -166,6 +173,9 @@
 
 
 
+  
+
+  
 
 
     
@@ -234,7 +244,11 @@
 
             if (currentTheme === 'auto') {
                 autoChangeScheme(autoDefinedScheme);
-                autoDefinedScheme.addListener(autoChangeScheme);
+                if (typeof autoDefinedScheme.addEventListener === 'function') {
+                  autoDefinedScheme.addEventListener('change', autoChangeScheme);
+                } else if (typeof autoDefinedScheme.addListener === 'function') { 
+                  autoDefinedScheme.addListener(autoChangeScheme);
+                }
             } else {
                 document.documentElement.setAttribute('data-theme', currentTheme)
             }
@@ -286,7 +300,7 @@
 
 
     <li>
-            <a href="/index.xml" title="RSS" rel="me">
+            <a href="/index.xml" title="RSS" aria-label="RSS" rel="me">
             <span class="inline-svg">
 
     
@@ -390,22 +404,26 @@
         
             <footer class="common-footer noselect">
     
+
     
 
     <div class="common-footer-bottom">
         
 
-        <div style="display: flex; align-items: center; gap:8px">
+        <div class="footer-meta">
             
-            ©  2026
+            © 2026
             
         </div>
-        <div style="display:flex; align-items: center; gap:4px">
+
+        <div class="footer-licenses">
+            
             
             
 
             
         </div>
+
         
             <div>
                 Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/hugo-theme-anubis2/hugo-theme-anubis2">Anubis2</a>.<br>
