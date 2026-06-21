@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 
   <channel>
     <title>Matt Anger&#39;s Site</title>
@@ -33,6 +33,15 @@
 I am testing a new static site generator, because I didn&amp;amp;rsquo;t like the old one. Hopefully I like this one more!
 
       </description>
+      <content:encoded>&lt;p&gt;So this exists&lt;/p&gt;
+&lt;p&gt;I am testing a new static site generator, because I didn&amp;rsquo;t like the old one. Hopefully I like this one more!&lt;/p&gt;
+</content:encoded>
+      
+      <category>general</category>
+      
+      
+      <category>general</category>
+      
       <guid isPermaLink="true">https://www.mattanger.dev/posts/2020-07-08-first/</guid>
     </item>
     

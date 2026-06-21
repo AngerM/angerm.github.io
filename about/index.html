@@ -15,21 +15,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 <meta name="theme-name" content="Anubis2">
-<meta name="theme-version" content="1.5.0">
+<meta name="theme-version" content="1.8.0">
 
-<title>About Me - Matt Anger&rsquo;s Site</title>
 
-<meta name="description" content="Hello!
+    <title>About Me - Matt Anger&rsquo;s Site</title>
+
+
+
+  <meta name="description" content="Hello!
 Welcome to my personal blog.
 I am a software engineer with over 20 years of industry experience and have worked with an extremely diverse array of companies, from enterprise data center systems to small consumer startups. I&rsquo;ve worked at scale on data center switches pushing multiple Tbps and AdTech systems handing &gt;1M QPS. Hopefully some of the things I&rsquo;ve learned along the way can be helpful to others.
 Enjoy your stay!">
-<meta name="author" content="">
-<meta name="copyright" content="">
-<meta name="generator" content="Hugo 0.159.1">
-<link rel="canonical" href="https://www.mattanger.dev/about/">
-
-
-
+  <meta name="author" content="">
+  <meta name="copyright" content="">
+  <meta name="generator" content="Hugo 0.163.3">
+  <link rel="canonical" href="https://www.mattanger.dev/about/">
+  
+  
+  
 
 
 <link rel="icon" type="image/x-icon" href="https://www.mattanger.dev/favicon.ico">
@@ -39,21 +42,45 @@ Enjoy your stay!">
 
 
 
-<style>
-  body {
-    visibility: hidden;
-    opacity: 0;
-  }
-</style>
 
-<noscript>
-  <style>
-    body {
-      visibility: visible;
-      opacity: 1;
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://www.mattanger.dev/","name":"Matt Anger's Site","position":1},{"@type":"ListItem","item":"https://www.mattanger.dev/about/","name":"About Me","position":2}]}]}</script>
+
+
+
+
+
+
+
+<script>
+  (function () {
+    var STORAGE_KEY = 'user-color-scheme';
+    var defaultTheme = "dark";
+    var theme;
+    try { theme = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+    if (!theme) {
+      theme = (defaultTheme && defaultTheme !== 'auto')
+        ? defaultTheme
+        : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     }
-  </style>
-</noscript>
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
 
 
 
@@ -71,27 +98,7 @@ Enjoy your stay!">
     
 
     
-        <link rel="stylesheet" href="/css/style.min.919e8bff9df3a36f5157ec2d1d3e464c29ed50200416bd4d65c4d69a6485f548.css" integrity="sha256-kZ6L/53zo29RV&#43;wtHT5GTCntUCAEFr1NZcTWmmSF9Ug=">
-    
-
-
-
-
-
-    
-
-
-
-
-
-    
-    
-        
-    
-    
-
-    
-        <link rel="stylesheet" href="/css/style.min.aa6e27ae0d565434ce1246364d776d71c6955cd53bd21352426f6c2ee1ab56b5.css" integrity="sha256-qm4nrg1WVDTOEkY2TXdtccaVXNU70hNSQm9sLuGrVrU=">
+        <link rel="stylesheet" href="/css/style.min.df7aa67d275c740abf28394e7cc73f6be9dd6ac2c679c519db76b183cdd0c99a.css" integrity="sha256-33qmfSdcdAq/KDlOfMc/a&#43;ndasLGecUZ23axg83QyZo=">
     
 
 
@@ -111,7 +118,7 @@ Enjoy your stay!">
     
 
     
-        <link rel="stylesheet" href="/css/style.min.ece0b450d437fcdb41e3e2170184d978ad9de51a630ac90709b00587a086d6f2.css" integrity="sha256-7OC0UNQ3/NtB4&#43;IXAYTZeK2d5RpjCskHCbAFh6CG1vI=">
+        <link rel="stylesheet" href="/css/style.min.36237d613e2f5010b19cb88e7d856f3dc9dac9756ac478a7d22e91f314e6c510.css" integrity="sha256-NiN9YT4vUBCxnLiOfYVvPcnayXVqxHin0i6R8xTmxRA=">
     
 
 
@@ -131,8 +138,49 @@ Enjoy your stay!">
     
 
     
-        <link rel="stylesheet" href="/css/style.min.508bd813cbc27a3978d0cde578e221f3e6c83958ae6be174eaf93004b8ce8785.css" integrity="sha256-UIvYE8vCejl40M3leOIh8&#43;bIOViua&#43;F06vkwBLjOh4U=">
+        <link rel="stylesheet" href="/css/style.min.61294ff271d5e5c5f4702643f2c1c8b4917fe0a4638dcc5f1611fa695d14e916.css" integrity="sha256-YSlP8nHV5cX0cCZD8sHItJF/4KRjjcxfFhH6aV0U6RY=">
     
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <link rel="stylesheet" href="/css/style.min.bb11e1ce33a7a4002fcfa8333849032b0e25f0f46658eb52c8347156fbbbe39f.css" integrity="sha256-uxHhzjOnpAAvz6gzOEkDKw4l8PRmWOtSyDRxVvu7458=">
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <link rel="stylesheet" href="/css/style.min.5e912c44779593b31e6b6cfe458754fe87704de3fea46150d3fdb0199a6064b0.css" integrity="sha256-XpEsRHeVk7Mea2z&#43;RYdU/odwTeP&#43;pGFQ0/2wGZpgZLA=">
+    
+
 
 
 
@@ -189,33 +237,15 @@ Enjoy your stay!">
             
                 <div class="header-top">
     <div class="header-top-left">
-        <h1 class="site-title noselect">
+        
+
+<p class="site-title noselect">
     <a href="/">Matt Anger&#39;s Site</a>
-</h1>
+</p>
+
 
         
 
-
-    
-        <div class="theme-switcher">
-            <span class="inline-svg">
-
-    
-
-
-    
-    
-    
-    
-    
-
-    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-sun-high"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14.828 14.828a4 4 0 1 0 -5.656 -5.656a4 4 0 0 0 5.656 5.656z" /><path d="M6.343 17.657l-1.414 1.414" /><path d="M6.343 6.343l-1.414 -1.414" /><path d="M17.657 6.343l1.414 -1.414" /><path d="M17.657 17.657l1.414 1.414" /><path d="M4 12h-2" /><path d="M12 4v-2" /><path d="M20 12h2" /><path d="M12 20v2" /></svg>
-
-
-</span>
-
-        </div>
-    
 
     <script>
         const STORAGE_KEY = 'user-color-scheme'
@@ -241,7 +271,7 @@ Enjoy your stay!">
         }
 
         document.addEventListener('DOMContentLoaded', function () {
-            switchButton = document.querySelector('.theme-switcher')
+            switchButton = document.querySelector('#theme-toggle')
             currentTheme = detectCurrentScheme()
 
             if (currentTheme === 'auto') {
@@ -293,8 +323,31 @@ Enjoy your stay!">
     </script>
 
 
-        <ul class="social-icons noselect">
+        
+<ul class="social-icons noselect">
 
+    
+        <li>
+            <button id="theme-toggle" type="button" aria-label="Toggle color theme">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-sun-high"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14.828 14.828a4 4 0 1 0 -5.656 -5.656a4 4 0 0 0 5.656 5.656z" /><path d="M6.343 17.657l-1.414 1.414" /><path d="M6.343 6.343l-1.414 -1.414" /><path d="M17.657 6.343l1.414 -1.414" /><path d="M17.657 17.657l1.414 1.414" /><path d="M4 12h-2" /><path d="M12 4v-2" /><path d="M20 12h2" /><path d="M12 20v2" /></svg>
+
+
+</span>
+
+            </button>
+        </li>
+    
 
 
 
@@ -352,17 +405,21 @@ Enjoy your stay!">
         </header>
         <main id="main" tabindex="-1">
             
-    <article class="post h-entry">
-        <div class="post-header">
-            <header>
-                
-                
-                
-                <h1 class="p-name post-title ">About Me</h1>
-                
+    
+        <article class="post h-entry">
+            <div class="post-header">
+                <div class="post-title-row">
+                <header>
+                    
+                    
+                    
+                    <h1 class="p-name post-title ">About Me</h1>
+                    
 
-            </header>
-            
+                </header>
+                
+                </div>
+                
 
 
 
@@ -392,8 +449,8 @@ Enjoy your stay!">
     </div>
 </div>
 
-        </div>
-        
+            </div>
+            
 
 
 
@@ -419,8 +476,8 @@ Enjoy your stay!">
   }
 </script>
 
-        <div class="content e-content">
-            <p>Hello!</p>
+            <div class="content e-content">
+                <p>Hello!</p>
 <p>Welcome to my personal blog.
 I am a software engineer with over 20 years of industry experience and have worked with an extremely diverse array of companies, from enterprise data center systems to small consumer startups. I&rsquo;ve worked at scale on data center switches pushing multiple Tbps and AdTech systems handing &gt;1M QPS. Hopefully some of the things I&rsquo;ve learned along the way can be helpful to others.</p>
 <p>Enjoy your stay!</p>
@@ -431,60 +488,64 @@ I am a software engineer with over 20 years of industry experience and have work
 <p>Mastadon: <a rel="me" href="https://hachyderm.io/@angermcs">@angermcs</a></p>
 <p><img src="/matt_small.jpg" alt=""></p>
 
-        </div>
-    </article>
+            </div>
+        </article>
 
-    
-    
-    
+        
+        
+        
 
-    
-
-
+        
 
 
 
 
 
 
-    
-    
-    
+
+
+        
+        
+        
+        
     
 
         </main>
-        
-            <footer class="common-footer noselect">
+        <footer class="common-footer noselect">
+            
+                
+                
+                
+                
+
+
+
+<div class="common-footer-bottom">
     
 
-    
-
-    <div class="common-footer-bottom">
+    <div class="footer-meta">
         
-
-        <div class="footer-meta">
-            
-            © 2026
-            
-        </div>
-
-        <div class="footer-licenses">
-            
-            
-            
-
-            
-        </div>
-
-        
-            <div>
-                Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/hugo-theme-anubis2/hugo-theme-anubis2">Anubis2</a>.<br>
-            </div>
+        © 2026
         
     </div>
-</footer>
+
+    <div class="footer-licenses">
+        
+        
+        
 
         
+    </div>
+
+    
+        <div>
+            Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/hugo-theme-anubis2/hugo-theme-anubis2">Anubis2</a>.<br>
+        </div>
+    
+</div>
+
+            
+        </footer>
     </div>
 </body>
 </html>
