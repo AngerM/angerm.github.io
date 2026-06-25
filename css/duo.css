@@ -639,17 +639,4 @@ p {
   }
 }
 
-/* Fix inline favicon link icons from being stretched */
-a i {
-  display: inline-flex;
-  align-items: center;
-  vertical-align: middle;
-  margin-right: 0.35em;
-}
-a i img {
-  width: 1.1em !important;
-  height: 1.1em !important;
-  margin: 0 !important;
-  display: inline-block !important;
-  vertical-align: middle;
-}
+
